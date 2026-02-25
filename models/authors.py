@@ -1,4 +1,4 @@
 class Authors:
-    def __init__(self, main_auth, secondary_auths):
+    def __init__(self, main_auth, additional_auths):
         self.main_auth = main_auth
-        self.secondary_auths = secondary_auths
+        self.additional_auths = additional_auths

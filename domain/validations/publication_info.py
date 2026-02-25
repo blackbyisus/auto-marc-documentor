@@ -1,5 +1,7 @@
-#Validator for all publication info is correct
-# ADD REFERENCE-BACKEND VALIDATION FOR COUNTRY INPUT
+# Validator for all publication info is correct
+# TO-DO'S:
+# ADD REFERENCE-BACKEND VALIDATION FOR COUNTRY INPUT 
+# ADD BACK-END VALIDATION FOR YEAR INPUT
 
 class PublicationValidator:
     def __init__(self, country, publisher, year):
